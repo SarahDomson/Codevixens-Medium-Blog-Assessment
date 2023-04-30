@@ -1,0 +1,33 @@
+.container {
+    max-width: 850px;
+    margin: auto;
+  }
+
+.img {
+  max-width: 750px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.rayso-img {
+  max-width: 770px;
+  min-height: 400px;
+  border-radius: 30px;
+}
+
+@font-face { font-family: sohne-big; font-weight: bold; src: url('../fonts/sohne-700-normal.woff'); }
+@font-face { font-family: sohne-normal; src: url('../fonts/sohne-400-normal.woff'); }
+
+h1,h2 { 
+  font-family: sohne-big;
+}
+
+p, a {
+  font-family: sohne-normal;
+  font-size: 25px;
+}
+
+a:link, a:visited, a:hover {
+  color: black;
+  background-color: transparent;
+}
